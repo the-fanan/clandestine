@@ -15,7 +15,7 @@ const Nav = props => {
 						</div>
 					</div>
 
-					<div className="col-12 col-md-9">
+					<div className="col-12 col-md-9 d-flex justify-content-end">
 						<ul className="nav">
 							<li className="nav-item">
 								<NavLink to="/auth" className="nav-link">Login / Sign Up</NavLink>
