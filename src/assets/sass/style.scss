@@ -56,8 +56,84 @@ h5 {
 h6 {
 	font-size: $h6-font-size;
 }
+
+section {
+	padding-top: 32px;
+	padding-bottom: 132px;
+
+	.title {
+		font-family: $theme-font-bold;
+		margin-top: 194px;
+		margin-bottom: 64px;
+	}
+}
+
+.releases-list {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(14em,1fr));
+	grid-gap: calc(.5em + .5vw);
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	li {
+		display: inline-block;
+	}
+}
+
+article.release {
+	width: 300px;
+
+	.image-holder {
+		overflow: hidden;
+		border-radius: 2px;
+		img {
+			width: 100%;
+		}
+	}
+
+	h6 {
+		font-family: $theme-font-bold;
+		line-height: 1.125;
+		font-weight: 700;
+		margin-bottom: 0;
+		margin-top: 8px;
+	}
+	.date {
+		color: #737373;
+		font-size: 14px;
+		font-family: $theme-font-regular;
+	}
+
+	.sources {
+		color: #737373;
+		font-size: 14px;
+		font-family: $theme-font-regular;
+		margin-top: 2px;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			color: #111;
+			display: inline;
+			line-height: 1.6;
+
+			a {
+				color: inherit;
+				text-decoration: none;
+				display: inline-block;
+				margin-left: .375em;
+				margin-right: .375em;
+				font-weight: 700;
+				&:hover {
+					color: $theme-color;
+				}
+			}
+		}
+	}
+}
 /*******************************************************************************
-* General Deign
+* NavBar
 *****************************************************************************/
 .#{$app-name}-nav {
 	text-align: initial;

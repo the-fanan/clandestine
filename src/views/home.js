@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import SiteSocial from '../components/social/SiteSocial.js'
+import SiteSocial from '../components/social/SiteSocial.js';
+import Release from '../components/music/Release.js'
+import releasesData from '../data/releases.js';
 
 class Home extends Component {
 	constructor(props) {
@@ -10,6 +12,10 @@ class Home extends Component {
 	}
 	
 	render(){
+		const releases = releasesData.map((release, index) => 
+		<li  key={index}>
+			<Release release={release}/>
+		</li>);
 		return (
 			<div className="row">
 				<div className="col">
@@ -29,7 +35,17 @@ class Home extends Component {
 
 					<div className="row">
 						<div className="col-12">
-							
+							<section>
+								<h2 className="title text-center">Trending Releases</h2>
+								<div className="row justify-content-center">
+									<div className="col-12 col-md-8">
+										<ol className="releases-list">
+											{releases}
+										</ol>
+										
+									</div>
+								</div>
+							</section>
 						</div>
 					</div>
 				</div>
