@@ -6,6 +6,7 @@ import './assets/sass/bootstrap.scss';
 import './assets/sass/style.scss';
 
 import NavBar from './components/shared/Nav.js';
+import FooterBar from './components/shared/Footer.js';
 
 import store from './redux/store.js';
 
@@ -20,6 +21,7 @@ function App() {
           
         </Switch>
       </div>
+      <FooterBar/>
     </Router>
   </Provider>
   );
