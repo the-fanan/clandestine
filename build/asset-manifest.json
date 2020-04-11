@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clandestine/static/css/main.f948e8cb.chunk.css",
+    "main.js": "/clandestine/static/js/main.af781ef4.chunk.js",
+    "main.js.map": "/clandestine/static/js/main.af781ef4.chunk.js.map",
+    "runtime-main.js": "/clandestine/static/js/runtime-main.5b03c19c.js",
+    "runtime-main.js.map": "/clandestine/static/js/runtime-main.5b03c19c.js.map",
+    "static/js/2.6c25ba38.chunk.js": "/clandestine/static/js/2.6c25ba38.chunk.js",
+    "static/js/2.6c25ba38.chunk.js.map": "/clandestine/static/js/2.6c25ba38.chunk.js.map",
+    "index.html": "/clandestine/index.html",
+    "precache-manifest.430d2c51eb0b0a1f8578421d5c9cf0ac.js": "/clandestine/precache-manifest.430d2c51eb0b0a1f8578421d5c9cf0ac.js",
+    "service-worker.js": "/clandestine/service-worker.js",
+    "static/css/main.f948e8cb.chunk.css.map": "/clandestine/static/css/main.f948e8cb.chunk.css.map",
+    "static/js/2.6c25ba38.chunk.js.LICENSE.txt": "/clandestine/static/js/2.6c25ba38.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/clandestine/static/media/fa-solid-900.c2801fb4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b03c19c.js",
+    "static/js/2.6c25ba38.chunk.js",
+    "static/css/main.f948e8cb.chunk.css",
+    "static/js/main.af781ef4.chunk.js"
+  ]
+}
