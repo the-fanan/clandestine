@@ -19,7 +19,7 @@ class Home extends Component {
 								<div className="text-holder align-self-center">
 									<h1>Clandestine</h1>
 									<div className="d-flex justify-content-center">
-										<p>Clandestine is a Music sharing app for anonymous sharing of music recommendations with friends and competing for whose recommendations get the most repeat listens</p>
+										<p>Clandestine is a Music sharing app for anonymous sharing of music recommendations with friends and competing for whose recommendations gets the most repeat listens</p>
 									</div>
 									<SiteSocial/>
 								</div>

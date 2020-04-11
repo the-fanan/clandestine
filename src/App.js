@@ -8,6 +8,7 @@ import './assets/sass/style.scss';
 //components
 import NavBar from './components/shared/Nav.js';
 import FooterBar from './components/shared/Footer.js';
+import Error404 from './components/error/404.js'
 //pages
 import home from './views/home.js';
 //store
@@ -22,6 +23,7 @@ function App() {
       <div className="container-fluid">
         <Switch>
           <Route exact path="/" component={home} />
+          <Route path="*" component={Error404} />
         </Switch>
       </div>
       <FooterBar/>

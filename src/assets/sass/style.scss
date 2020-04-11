@@ -239,6 +239,38 @@ footer {
 		}
 	}
 }
+
+/*******************************************************************************
+* Errors Page
+*****************************************************************************/
+.error {
+	margin-right: -15px;
+	margin-left: -15px;
+	min-height: 450px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+	.text-holder {
+		z-index: 1;
+		width: 100%;
+
+		h1 {
+			font-family: $theme-font-bold;
+			font-size: 80px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+	
+		p {
+			font-family: $theme-font-regular;
+			font-size: 24px;
+			width: 900px;
+		}
+
+		span {
+			color: $theme-color;
+		}
+	}
+}
 /*******************************************************************************
 * Responsive Design
 *****************************************************************************/
