@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const Nav = props => {
 	return (
-		<nav className="cl-nav navbar">
-			<div className="container fluid">
-				<div className="row justify-content-between" style={{width: "100%"}}>
+		<nav className="cl-nav">
+			<div className="container">
+				<div className="row justify-content-between">
 					<div className="col-12 col-md-3">
 						<div className="banner d-flex justify-content-between">
 							<NavLink to="/" className="navbar-brand">Clandestine</NavLink>
@@ -16,25 +16,23 @@ const Nav = props => {
 					</div>
 
 					<div className="col-12 col-md-9">
-						<div className="navbar-collapse d-flex justify-content-end" id="navbarNav">
-							<ul className="nav">
-								<li className="nav-item">
-									<NavLink to="/auth" className="nav-link">Login / Sign Up</NavLink>
-								</li>
-								<li className="nav-item">
-									<NavLink to="/global-leader-board" className="nav-link">Leader Board</NavLink>
-								</li>
-								<li className="nav-item">
-									<NavLink to="/trending" className="nav-link">Trending</NavLink>
-								</li>
-								<li className="nav-item">
-									<NavLink to="/about" className="nav-link">About</NavLink>
-								</li>
-								<li className="nav-item">
-									<NavLink to="/contact" className="nav-link">Contact</NavLink>
-								</li>
-							</ul>
-						</div>
+						<ul className="nav">
+							<li className="nav-item">
+								<NavLink to="/auth" className="nav-link">Login / Sign Up</NavLink>
+							</li>
+							<li className="nav-item">
+								<NavLink to="/global-leader-board" className="nav-link">Leader Board</NavLink>
+							</li>
+							<li className="nav-item">
+								<NavLink to="/trending" className="nav-link">Trending</NavLink>
+							</li>
+							<li className="nav-item">
+								<NavLink to="/about" className="nav-link">About</NavLink>
+							</li>
+							<li className="nav-item">
+								<NavLink to="/contact" className="nav-link">Contact</NavLink>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
