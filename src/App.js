@@ -3,6 +3,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //assets
+import './assets/fontawesome/css/all.min.css';
 import './assets/sass/bootstrap.scss';
 import './assets/sass/style.scss';
 //components
