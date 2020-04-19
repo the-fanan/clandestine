@@ -21,7 +21,7 @@ const Nav = props => {
 								<NavLink to="/auth" className="nav-link">Login / Sign Up</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink to="/global-leader-board" className="nav-link">Leader Board</NavLink>
+								<NavLink to="/global-leader-board" className="nav-link">Global Leader Board</NavLink>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/trending" className="nav-link">Trending</NavLink>
