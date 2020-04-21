@@ -4,7 +4,7 @@ import ColumnHeader from '../components/leaderboard/columnheader.js';
 import User from '../components/leaderboard/leaderboarduser.js';
 import '../assets/sass/leaderboard.scss';
 
-class Leaderboard extends React.Component {
+class Leaderboard extends Component {
     constructor() {
         super();
         this.state = {
@@ -51,7 +51,7 @@ class Leaderboard extends React.Component {
                         <div className="row justify-content-center">
                             <div className="col-12 col-md-8">
                                 <div className="d-flex justify-content-center">
-                                    <div className="container">
+                                    <div className="container leaderboard">
                                         <LeaderboardHeader />
                                         <ColumnHeader onClickAll={this._clickAllTime} onClick={this._clickRecent}/>
                                         { userlist }
