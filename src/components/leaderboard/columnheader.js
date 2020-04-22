@@ -6,10 +6,10 @@ const ColumnHeader = ({
                       }) => {
     return (
         <div className="row colheader">
-            <div className="col-xs-1">
+            <div className="col-xs-1 boardnumber">
                 <h4>#</h4>
             </div>
-            <div className="col-xs-5">
+            <div className="col-xs-5 boardname">
                 <h4>Name</h4>
             </div>
             <div className="col-xs-3 recent">

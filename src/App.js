@@ -16,6 +16,9 @@ import about from './views/about.js';
 import contact from './views/contact.js';
 import trending from './views/trending.js';
 import globalleaderboard from './views/leaderboard.js';
+import leagues from './views/leagues.js';
+//callback for Auth
+import Callback from './Callback';
 //store
 import store from './redux/store.js';
 
@@ -32,6 +35,8 @@ function App() {
           <Route exact path="/contact" component={contact} />
           <Route exact path="/trending" component={trending} />
           <Route exact path="/global-leader-board" component={globalleaderboard} />
+          <Route exact path="/leagues" component={leagues} />
+          <Route exact path='/callback' component={Callback}/>
           <Route path="*" component={Error404} />
         </Switch>
       </div>
